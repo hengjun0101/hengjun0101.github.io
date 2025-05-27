@@ -1,52 +1,302 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<html lang="zh-Hant">
 
 <head>
-    <title>HengJun's Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 元件0408</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+        .quicksand-uniquifier-caption {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            color: #60575B
+        }
+
+        .quicksand-uniquifier-maincontent {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            color: black
+        }
+    </style>
+
+
+
+
 </head>
 
 <body>
 
-    <h1>這是hengjun0101的網頁!</h1>
-    <a href="https://sites.google.com/stu.ntue.edu.tw/hjintroduction">Visit my introduction page</a>
-    <p>https://sites.google.com/stu.ntue.edu.tw/hjintroduction</p>
-    
-    <h1>這是詐騙哈哈哈!</h1>
-    <p></p></a><a href="0304\index.html" >hengjun0101.github.io</a></p>
+    <body align="center">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/螢幕擷取畫面 2025-04-08 094302.png" width="200"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Homeworks
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="0304/index.html">0304</a></li>
+                                <li><a class="dropdown-item" href="0311/index.html">0311</a></li>
+                                <li><a class="dropdown-item" href="0318/index.html">0318</a></li>
+                                <li><a class="dropdown-item" href="0325/index.html">0325</a></li>
+                                <li><a class="dropdown-item" href="0408/index.html">0408</a></li>
+                                <li><a class="dropdown-item" href="0415/template.html">0415</a></li>
+                                <li><a class="dropdown-item" href="0422/index.html">0422</a></li>
+                                <li><a class="dropdown-item" href="0429/index.html">0429</a></li>
+                                <li><a class="dropdown-item" href="0506/index.html">0506</a></li>
+                                <li><a class="dropdown-item" href="0513/index.html">0513</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">More...</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-    <h1>0311!</h1>
-    <p></p></a><a href="0311\index.html" >唐詩三百首.github.io</a></p>
 
-    <h1>0318!</h1>
-    <p></p></a><a href="0318\index.html" >My Favorite Song.github.io</a></p>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/template.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/template (1).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/template (2).png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-    <h1>0325!</h1>
-    <p></p></a><a href="0325\index.html" >Five.github.io</a></p>
 
-    <h1>0408!</h1>
-    <p></p></a><a href="0408\index.html" >旋轉木馬.github.io</a></p>
 
-    <h1>0415!</h1>
-    <p></p></a><a href="0415\template.html" >footer.github.io</a></p>
 
-    <h1>0422!</h1>
-    <p></p></a><a href="0422\index.html" >小刺蝟.github.io</a></p>
+        <div class="container text-center">
 
-    <h1>0429!</h1>
-    <p></p></a><a href="0429\index.html" >清單.github.io</a></p>
 
-    <h1>0506!</h1>
-    <p></p></a><a href="0506\index.html" >清單.github.io</a></p>
+            <div class="row">
 
-    <h1>0513!</h1>
-    <p></p></a><a href="0513\index.html" >清單.github.io</a></p>
-</body>
+                <div class="col">
+                    <div id="mycard">
+                        <img src="img/188616a7-6487-403b-abae-71fe322edfa2.jpg" alt="Image description" width="300">
+                        <div id="caption" class="quicksand-uniquifier-caption">
+                            <h1>這是hengjun0101的網頁!</h1>
+                            <a href="https://sites.google.com/stu.ntue.edu.tw/hjintroduction">Visit my
+                                introduction page</a>
+                            <p>https://sites.google.com/stu.ntue.edu.tw/hjintroduction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id="mycard">
+                        <img src="img/2e12edac-3839-45f6-b84a-c0d52225dfa5.jpg" alt="Image description" width="300">
+                        <div id="caption" class="quicksand-uniquifier-caption">
+                            <div id="mymedia">
+                                <h1>這是詐騙哈哈哈!</h1>
+                                <p></p></a><a href="0304\index.html">hengjun0101.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/331cf4b1-9f8e-444c-87c8-8c794183955b.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0311!</h1>
+                                <p></p></a><a href="0311\index.html">唐詩三百首.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+
+
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/36afaca8-d538-42f2-a962-706cfdd62663.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0318!</h1>
+                                <p></p></a><a href="0318\index.html">My Favorite Song.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+
+
+           
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/406f040b-42dc-4d6e-b7bc-667828d5c63b.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0325!</h1>
+                                <p></p></a><a href="0325\index.html">Five.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/733cbfba-c29f-4890-a3cb-adcb2d3dd794.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0408!</h1>
+                                <p></p></a><a href="0408\index.html">旋轉木馬.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            
+
+            <div class="row">
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/84020349291822414.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0415!</h1>
+                                <p></p></a><a href="0415\template.html">footer.github.io</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+
+            
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/4aa4b815-90ac-4620-9896-d82f2471cb35.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0422!</h1>
+                                <p></p></a><a href="0422\index.html">小刺蝟.github.io</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+           
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/b7fa2b5a-eb3b-4920-9960-74053ccaa2af.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0429!</h1>
+                                <p></p></a><a href="0429\index.html">表格.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/4e614ef8-e5b1-4b5b-9c6c-d12ac41e3b75.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0506!</h1>
+                                <p></p></a><a href="0506\index.html">清單.github.io</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            
+
+                <div class="col">
+                    <div id="mycard">
+                        <div id="mymedia">
+                            <img src="img/あおむけハリネズミさん リアルバージョン.jpg" alt="Image description" width="300">
+                            <div id="caption" class="quicksand-uniquifier-caption">
+                                <h1>0513!</h1>
+                                <p></p></a><a href="0513\index.html">部落格.github.io</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+    </body>
 
 
 </html>
-
-
-
-
-
-
